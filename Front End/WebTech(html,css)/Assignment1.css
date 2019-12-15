@@ -1,0 +1,19 @@
+.first
+{
+    padding: 20px;
+    font-size: 25px;
+    float: left;
+}
+
+.second
+{
+    padding: 20px;
+    font-size: 25px;
+    float: right;
+}
+
+.third
+{
+    box-shadow: 0 0 30px cyan;
+    border-radius: 30%;
+}
