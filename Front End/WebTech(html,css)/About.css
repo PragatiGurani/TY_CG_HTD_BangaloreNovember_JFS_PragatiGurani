@@ -1,0 +1,6 @@
+table,th,td,tr
+{
+    border:2px solid rgb(52, 233, 28);
+    
+    /* border-collapse: collapse; */
+}

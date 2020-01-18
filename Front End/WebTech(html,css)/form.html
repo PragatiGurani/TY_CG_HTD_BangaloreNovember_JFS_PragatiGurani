@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="POST">
+
+        <fieldset>
+            <legend>LOGIN DETAILS</legend>
+
+        <label for="sky">First Name</label>
+        <input type="text" name="fname" id="sky" minlength="5" maxlength="6"  > <br>
+        Lastname Name:<input type="text" name="lname" placeholder="enter ur last name"> <br>
+        Password<input type="password" name="pwd" placeholder="enter ur password" required pattern="prag123"> <br>
+
+        email<input type="email">
+          url<input type="url">
+          <input type="number" min="10" max="20">
+        <input type="submit" value="submit"> <br>
+        <input type="reset" name="" id="">
+
+        </fieldset>
+
+        <input type="radio" name="gender" value="male">MALE
+        <input type="radio" name="gender" value="female" checked>FEMALE <br>
+
+<!-- multiple option -->
+        <input type="checkbox" name="lang" value="JAVA"> JAVA<br>
+        <input type="checkbox" name="lang" value="SQL"> SQL<br>
+
+        <!-- dropdown -->
+        <select name="Cartoons" id="">
+            <option value="tom and jerry">tom and jerry</option>
+            <option value="chota bheem">chota bheem</option>
+            <option value="doremon">doremon</option>
+            <option value="mr bean">mr bean</option>
+        </select>
+
+         <input type="button" value="click here"> <br><br>
+        <input type="file" name="choose here"><br><br>
+
+        <textarea name="story" id="" cols="30" rows="10">
+        once upon a time
+        </textarea>
+
+        <input list="languages">
+          <datalist id="languages">
+              <option value="english">english</option>
+              <option value="kannada">kannada</option>
+              <option value="hindi">hindi</option>
+         </datalist>
+              
+         <audio controls>
+         <source src="" type=audio/mp3>
+          </audio>
+          <!-- <video src=""></video> -->
+
+          <video controls 
+          src="" type=audio/mp3>
+          </video>
+    </form>
+</body>
+</html>
